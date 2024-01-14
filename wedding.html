@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Alan & Riana's Wedding Weekend</title>
+
+  <!-- font import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Princess+Sofia&display=swap" rel="stylesheet">
+  
+  <!--css import wedding.css
+  <link rel='stylesheet' type='text/css' href='./Resources/CSS/wedding.css'>
+  -->
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: linen;
+    font-family: Verdana, sans-serif;
+  }
+  header {
+  }
+  nav {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    box-shadow: 0px 0px 5px 5px grey;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  nav a:hover {
+    box-shadow: 0px 0px 3px 3px;
+  }
+  #navblock {
+    height: 10vh;
+  }
+  main {
+    padding: 0 14vw;
+  }
+  h1 {
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Princess Sofia', sans-serif;
+    margin: 30px;
+  }
+  blockquote {
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 10px 0 35px;
+  }
+  blockquote a {
+    color: black;
+  }
+  p a {
+    color: black;
+  }
+  p {
+    font-family: 'Trebuchet MS';
+  }
+  .hero {
+    width: 100%;
+    margin: 40px auto;
+    display: block;
+  }
+  section {
+    padding: 20px 40px;
+  }
+  sub {
+    position: relative;
+    bottom: 50px;
+  }
+  h2 {
+    font-size: 36px;
+    font-family: 'Cabin Sketch', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  }
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #venuephotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    flex-grow: 1;
+    padding: 30px 10px 10px;
+  }
+  #venuephotos img {
+    margin: 0;
+    max-width: 250px;
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 36px;
+    align-items: center;
+    margin: 22px 0;
+  }
+  article img {
+    min-width: 250px;
+    width: 30%
+  }
+  article p {
+    display: block;
+    min-width: 250px;
+    width: 50%
+  }
+  ol, ul {
+    font-family: 'Trebuchet MS';
+    margin: 20px 0;
+    list-style: inside;
+  }
+  li {
+    margin: 6px 0;
+  }
+  li a {
+    color: black;
+  }
+  #formlink {
+    display: none;
+  }
+  #footerblock {
+  height: 100px;
+  }
+  footer {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer p {
+    font-size: 8px;
+    padding: 8px 24px;
+  }
+  footer a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 34px;
+  }
+  @media (max-width: 600px) {
+    nav {
+      height: 5vh;
+    }
+    nav a {
+      font-size: 12px;
+      padding: 0px;
+      
+    }
+    main {
+      padding: 10px;
+    }
+    section {
+      padding: 20px 10px;
+    }
+    iframe, span {
+      display: none;
+    }
+    #formlink {
+      display: inline;
+    }
+    footer a {
+      font-size: 12px;
+    }
+    footer {
+      height: 5vh;
+    }
+  }
+  </style>	
+</head>
+<body>
+  <header>
+    <nav>
+      <a href='#about'>About</a>
+      <a href='#event'>Event</a>
+      <a href='#logistics'>Logistics</a>
+      <a href='#rsvp'>RSVP</a>
+
+<!--
+About
+  love story
+  why this event/location
+
+Event
+  location
+  schedule
+  gift registry - how you can help! cook food
+  dress code
+  social media rules? => photography, shared drive
+
+Logistics
+  accommodations
+  transportation
+  facilities - what to pack, check-in/check-out
+  what to do in Ottawa for out-of-towners
+
+fonts
+
+-->
+
+
+
+    </nav>
+  </header>
+  <main>
+    <div id='navblock'></div>
+    <h1>Alan & Riana's Wedding</h1>
+    <blockquote>September 12-15 at <a href='https://www.google.com/maps/dir//Long+Island+Recreational+%26+Conference+Centre,+Nicolls+Island+Rd,+Ottawa,+ON+K4M+0E2/@45.2559239,-75.7037716,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4ccde378a58a1869:0xc8811bbf9c108e67!2m2!1d-75.7035901!2d45.2562676!3e0?entry=ttu'>Long Island Recreational & Conference Centre</a></blockquote>
+    <img class='hero' src='./photos/lake.jpg' alt='cute couple'>
+    <section>
+      <sub id='about'></sub>
+      <h2>About Us</h2>
+      <p>Alan and Riana met online in December 2021. We got engaged on February 14, 2023 and moved into our tiny house on May 10, 2023.</p>
+      <br>
+      <p>As you may know we are quite cost-conscious, and we do not want to impose extra costs on our guests. We also would like to be able to spend quality time with everyone. Given these, we decided to have a weekend getaway at a local camping/cottage resort, with a non-legal ceremony to affirm our commitment to each other.</p>
+      <br>
+      <p>While we hope to be able to celebrate this special occasion with all of you, we understand if you cannot or prefer not to come. We know that this might not be your idea of a fun time and do not want anyone to feel any obligation to attend, especially if this does not fit well within your schedule, budget or (for those of you not in Ottawa) your travel plans. If this is the case, we hope we can find another time to celebrate with you in the near future!</p>
+    </section>
+    <section>
+      <sub id='event'></sub>
+      <h2>Event Details</h2>
+      <h3>Location</h3>
+      <p>The venue is called Long Island Recreational & Conference Centre (<a href='http://www.folic.ca'>website</a>), and is located on the Rideau River between Manotick and Barrhaven in the south of Ottawa (<a href='https://www.google.com/maps/dir//Long+Island+Recreational+%26+Conference+Centre,+Nicolls+Island+Rd,+Ottawa,+ON+K4M+0E2/@45.2559239,-75.7037716,18z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4ccde378a58a1869:0xc8811bbf9c108e67!2m2!1d-75.7035901!2d45.2562676!3e0?entry=ttu'>directions</a>). It is a facility with 14 cabins, around a conference center with two adjacent halls. Each cabin sleeps up to six people and has electricity. There is also a playground, basketball court, fire pit, BBQ pit area, picnic area, and plenty of green space. There are campsite showers and flushing toilets available.</p>
+      <div id='venuephotos'>
+        <img src='./photos/venue1.jpg'>
+        <img src='./photos/venue2.jpg'>
+        <img src='./photos/venue3.jpg'>
+        <img src='./photos/venue4.jpg'>
+        <img src='./photos/venue5.jpg'>
+        <img src='./photos/venue6.jpg'>
+        <img src='./photos/venue7.jpg'>
+        <img src='./photos/venue8.jpg'>
+        <img src='./photos/venue9.jpg'>
+      </div>
+
+      <h3>Schedule</h3>
+      <p>Here's a rough idea of the festivities. You can come and go as you please, but if you can let us know in the form below which meals you'll be around for that would be great!</p>
+      <br>
+      <p>Please note that all food will be vegan, with options for any other dietary needs or allergies. Guests are invited to BYOB if they wish; there will be a small amount of cold storage space available for drinks.</p>
+      <h4>Thursday</h4>
+      <p><strong>12-3pm</strong> - Setup</p>
+      <p><strong>3-5pm</strong> - Arriving, Settling In, Hanging Out</p>
+      <p><strong>5-7pm</strong> - Dinner (menu TBD)</p>
+      <p><strong>7pm-bedtime</strong> - Activities (board games, music, camp fire, etc.)</p>
+
+      <h4>Friday</h4>
+      <p><strong>7-10am</strong> - Breakfast (continental)</p>
+      <p><strong>11am</strong> - Scavenger Hunt</p>
+      <p><strong>12-2pm</strong> - Lunch (BBQ/sandwiches) and lawn games</p>
+      <p><strong>2-5pm</strong> - Water activities (boat, paddle board, swimming) and sports (basketball, volleyball, badminton, soccer)</p>
+      <p><strong>5-7pm</strong> - Dinner (menu TBD)</p>
+      <p><strong>7pm-bedtime</strong> - Live music, activities (board games, movies, music, camp fire, etc.)</p>
+
+      <h4>Saturday</h4>
+      <p><strong>7-10am</strong> - Breakfast (continental)</p>
+      <p><strong>11-12</strong> - Capture the Flag</p>
+      <p><strong>12-2pm</strong> - Lunch (BBQ/sandwiches) and lawn games</p>
+      <p><strong>2-4pm</strong> - Water activities (boat, paddle board, swimming) and sports (basketball, volleyball, badminton, soccer)</p>
+      <p><strong>4pm</strong> - Ceremony preparation</p>
+      <p><strong>4:30pm</strong> - Ceremony</p>
+      <p><strong>5pm</strong> - Group photo, appetizers and drinks</p>
+      <p><strong>6-8pm</strong> - Dinner (catered), slideshow, speeches</p>
+      <p><strong>8pm-bedtime</strong> - Dancing, camp fire, late night snacks</p>
+      
+      <h4>Sunday</h4>
+      <p><strong>7-11am</strong> - Breakfast (continental), tidy and pack up, organize leftover food</p>
+      <p><strong>11am</strong> - Checkout!</p>
+
+      <img class='hero' src='./photos/walls.jpg' alt='couple in partially framed tiny house'>
+
+      <h3>Gifts</h3>
+      <p>We are certain of, and appreciate, everyone's generosity, but we are incredibly fortunate to have everything we need and we would like to kindly request no gifts. Kindly, but firmly, because we know that sometimes couples ask for no gifts but most people give gifts anyway!</p>
+      <br>
+      <p>We understand that you lovely folks may still wish to contribute somehow, so if that is the case you can help us to make the weekend possible by assisting with making the weekend a success – by helping with meal preparation and cleanup, carpooling, lending out extra sleeping bags and games, picking up supplies we have ordered, and so on.</p>
+      <br>
+      <p>If you really really insist, we will accept <em>anonymous</em> cash contributions towards the accommodation/food costs (anonymous because we don't want anyone to feel obligated to contribute any specific amount).</p>
+      <br>
+      <p>If you STILL want to give us a gift, please consider eating one or more vegan meals in our honour, before or after the wedding, OR donating to <strong><a href='https://animalcharityevaluators.org'>Animal Charity Evaluators</a>, <a href='https://80000hours.org'>80,000 Hours</a>, or <a href='https://www.givewell.org'>GiveWell</a>.</strong> If you have any questions about these, we would be happy to talk about them!</p>
+      <h3>Dress Code</h3>
+      <article>
+        <p>We encourage you to wear whatever you prefer and are comfortable in for the whole time! For the ceremony you may wish to wear something nice, but you could wear sweats, PJs and crocs, or cargo shorts and a blazer, or a Halloween costume. Actually you should definitely wear a Halloween costume.</p>
+        <img src='./photos/loft.jpg' alt='tired couple after installing flooring'>
+      </article>
+      <h3>Photography</h3>
+      <article>
+        <img src='./photos/smooch.jpg' alt='cute couple selfie'>
+        <p>We are not hiring a photographer, so feel free to bring your camera or just use your phone and take any pics you'd like! After the weekend you can upload them <a href='https://weduploader.com/upload/LLFHJaD4a91k6VL2'>here</a>.</p>
+    </section>
+
+    <section>
+      <sub id='logistics'></sub>
+      <h2>Logistics</h2>
+      <h3>Accommodations</h3>
+      <article>
+        <p>At the resort, there are a number of small, rustic (hydro, no running water) cabins available which sleep 4-6 people (each has 2 bunk beds and 1 double bed). There is also the option of tenting for the more adventurous among you. We are able to offer more comfortable accommodations for our more senior guests, please feel free to inquire if this is you.</p>
+        <img src='./photos/nap.jpg' alt='sneaky woman takes selfie with sleeping man'>
+      </article>
+      <p>If you would prefer to sleep off-site, you are welcome to stay at a hotel or <a href='http://airbnb.ca/'>AirBnB</a> nearby. Here are some hotels in the area (20 minute drive or less, from the venue):</p>
+      <ul>
+        <li><a href='https://www.wyndhamhotels.com/en-ca/ramada/ottawa-ontario/ramada-ottawa-on-the-rideau/overview'>Ramada by Wyndham Ottawa On The Rideau</a> (2259 Prince of Wales Dr, Ottawa, ON K2E 6Z8)</li>
+        <li><a href='https://www.hilton.com/en/hotels/yowapgi-hilton-garden-inn-ottawa-airport/'>Hilton Garden Inn Ottawa Airport</a> (2400 Alert Rd, Ottawa, ON K1V 1S1)</li>
+        <li><a href='https://www.marriott.com/en-us/hotels/yowfa-fairfield-inn-and-suites-ottawa-airport/overview/'>Fairfield Inn & Suites by Marriott Ottawa Airport</a> (135 Thad Johnson Private, Ottawa, ON K1V 1A2)</li>
+        <li><a href='https://www.hilton.com/en/hotels/yowowhx-hampton-ottawa-west/'>Hampton Inn & Suites Ottawa West</a> (125 Lusk Street Nepean, Ontario K2J 6S5 Canada)</li>
+      </ul>
+      <p>If you need assistance finding a place to stay off-site, please let us know.</p>
+      <h3>Travel</h3>
+        <article>
+          <img src='./photos/ouimet.jpg' alt='cute couple'>
+          <p>For those of you coming in from outside of Ottawa, there are three main ways to get to the nation's capital: by car, by train, or by plane. It's a relatively easy drive from Toronto, along the faster Highway 401 route or the more scenic Highway 7 route. The Via Rail stops in Fallowfield, which is a 15-minute drive to the venue. The Ottawa International Airport is about a 20-minute drive to the venue. </p>
+        </article>
+        <p>Within Ottawa, the options for getting around are driving, cabbing (Uber, Lyft, Blue Line Taxi, and Capital Taxi are all options), or public transit (run by OC Transpo). Once we know who is attending the event, and who can offer or benefit from carpooling, we will make additional arrangements to help everyone get around within Ottawa.</p>
+      <h3>Packing</h3>
+      <ul>
+        <li>Sunscreen and sunglasses</li>
+        <li>Hat or visor</li>
+        <li>Water bottle</li>
+        <li>Bug spray</li>
+        <li>Bathing suit</li>
+        <li>Towel*</li>
+        <li>Flashlight or headlamp</li>
+        <li>Tent, if camping</li>
+        <li>Sleeping bag or sheets/blanket*</li>
+        <li>Pillow*</li>
+        <li>Camp chair</li>
+        <li>Hammock</li>
+        <li>Board games</li>
+        <li>Water activities (e.g., paddle board)</li>
+        <li>Sports equipment (e.g., basketball, soccer ball)</li>
+        <li>Musical instruments (for live music sessions)</li>
+        <li>Books</li>
+        <li>Earplugs</li>
+        <li>Layers, in case of cool weather</li>
+        <li>Rain jacket, in case of rain</li>
+      </ul>
+      <p>*For those travelling by plane or train, we can supply these bulky but important items!</p>
+    </section>
+    <section>
+      <h2>Out-of-Towners</h2>
+      <h3>Tourist Activities</h3>
+      <p>For those planning to tour Ottawa, the city has a lot to offer! Here are some of our favourite activities:</p>
+      <ol>
+      <li><strong>Museums:</strong> Ottawa is home to many museums, including the National Gallery of Canada, Canadian Museum of History, Canada Science and Technology Museum, Canada Aviation and Space Museum, Canadian Museum of Nature, Canadian War Museum and Canada Agriculture and Food Museum. For more information, see <a href='https://ottawatourism.ca/en/ottawa-insider/ottawas-seven-national-museums'>here</a>.</li>
+      <li><strong>Walking tours:</strong> If you want to learn about the city's history while exploring downtown on foot, Riana highly recommends <a href='https://www.ottawafreetour.com/'>Ottawa Free Tours</a> - especially the Capital City Tour.</li>
+      <li><strong>Haunted walk:</strong> If you prefer a spookier walking tour, you can also do a haunted ghost walk with <a href='https://hauntedwalk.com/ottawa-tours/'>The Haunted Walk</a>.</li>
+      <li><strong>Trails and hiking:</strong> One of our favourite things about Ottawa is the plentiful green space and numerous trails for walking, hiking and biking. The National Capital Commission's <a href='https://ncc-ccn.gc.ca/places-to-visit'>website</a> lists all local trails and other green spaces maintained by the city. If you would like help planning a hike or outdoor excursion, let us know.</li>
+      <li><strong>Parliament:</strong> For those interested in history or politics, consider visiting the Parliament of Canada. Tours are offered free-of-charge, but spaces need to be reserved <a href='https://visit.parl.ca/sites/Visit/default/en_CA'>online</a>.</li>
+      <li><strong>Supreme Court:</strong> For those interested in law or justice, consider visiting the Supreme Court of Canada. Guided tours are offered free of charge, and need to be <a href='https://www.scc-csc.ca/vis/tour-visite/index-eng.aspx'>reserved in advance</a>.</li>
+      <li><strong>Royal Canadian Mint:</strong> For those interested in coins and medals, you can do a guided tour of one of the mint's two locations (the other being in Winnipeg). Tour tickets can be purchased <a href='https://www.mint.ca/en/visit-the-mint/ottawa-mint'>online</a>.</li>
+      <li><strong>The Rideau Canal:</strong> This UNESCO World Heritage Site can be visited year-round, and is very picturesque. Learn more <a href='https://ottawatourism.ca/en/ottawa-insider/best-ways-experience-rideau-canal-ottawa'>here</a>.</li>
+      <li><strong>Local theatre:</strong> There are several theatres in the city, from the prestigious National Arts Centre to community theatres like Ottawa Little Theatre. If you want to take in a show while in town, see a summary of upcoming shows <a href='https://www.ottawa-theatre.com/'>here</a>.</li>
+      </ol>
+      <img class='hero' src='./photos/mooshu.jpg' alt-text='couple eating vegan ice-cream'>
+      <h3>Must-Try Foods:</h3>
+      <ol>
+        <li><a href='https://www.mooshuicecream.com/'>Moo Shu</a>: Hands down the best ice cream in the city.</li>
+        <li><a href='https://suzyq.ca/'>Suzy Q</a> or <a href='https://mavericksdonuts.com/'>Maverick's</a>: The best donuts in Ottawa.</li>
+        <li><a href='https://beavertails.com/shops/'>Beavertails</a>: Famous pastries in the shape of beavertails, with a variety of toppings.</li>
+        <li><a href='https://www.chickpeasottawa.ca/'>Chickpeas</a>: The best falafel and hummus we've ever had, with the most delicious zaatar wedges.</li>
+        <li><a href='https://www.wolfdown.com/'>Wolf Down</a>: Ottawa is known for its shawarma, and Wolf Down is our favourite because of their innovative tofu filling.</li>
+        <li><a href='https://haregcafeottawa.com/'>Hareg</a>: We are big fans of Ethiopian food and Hareg has delicious food in addition to being centrally located and owned by lovely folks. </li>
+        <li><a href='https://www.instagram.com/explore/locations/102773812832876/st-elsewhere-ottawa/?hl=en'>St. Elsewhere</a>: Ottawa's newest plant-based restaurant is an upscale eatery and bar.</li>
+        <li><a href='https://www.astoriabistrobotanique.com/'>Astoria Bistro Botanique</a>: A great spot for brunch or dinner on the Gatineau side of the border, if you feel like venturing into nearby Quebec.</li>
+      </ol>
+      <p>If you plan to extend your stay, feel free to let us know so that we can show you around!</p>
+    </section>
+
+    <section>
+      <sub id='rsvp'></sub>
+      <h2>RSVP</h2>
+      <p>Please RSVP using <span>this form</span><a id='formlink' href='https://docs.google.com/forms/d/e/1FAIpQLSd7cUd3ltAfsKV61Qn8Qbv5x3Z6u8k4-2eQe59eiaDSLRur3Q/viewform?usp=sf_link'>this form</a> by <strong>July 1</strong> (2024-07-01 for those of us who follow ISO 8601).</p>
+      </p>
+      
+    </section>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7cUd3ltAfsKV61Qn8Qbv5x3Z6u8k4-2eQe59eiaDSLRur3Q/viewform?embedded=true" width="640" height="2500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!--rsvp becomes guests after closing date?-->
+
+  </main>
+  <div id='footerblock'></div>
+  <footer>
+    <p>Website made by Alan typing stuff into Notepad</p>
+    <a href='#top'>^Top</a>
+  </footer>
+
+</body>
+</html>
